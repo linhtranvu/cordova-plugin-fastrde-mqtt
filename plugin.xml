@@ -7,7 +7,7 @@
   <keywords>mqtt, iot, push, notification</keywords>
   <repo>https://github.com/iocare/cordova-plugin-fastrde-mqtt.git</repo>
   <issue>https://github.com/iocare/cordova-plugin-fastrde-mqtt/issues</issue>
-	<dependency id="cordova-sqlite-storage" version="2.4.0" />
+	<dependency id="cordova-sqlite-storage" version="5.1.0" />
 	<dependency id="cordova-plugin-network-information" version="2.0.1" />
   <js-module src="www/mqtt.js" name="mqtt">
     <clobbers target="mqtt" />
