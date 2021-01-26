@@ -5,6 +5,10 @@ This is a fork from **cordova-plugin-fastrde-mqtt** (https://github.com/fastrde/
 
 Now working smoothly on both **IOS** and **Android**. Tested on Jan 2021, Cordova 9. XCode 12.3
 
+## Installation
+
+`cordova plugin add https://github.com/linhtranvu/cordova-plugin-fastrde-mqtt.git`
+
 ## API
 
 #### mqtt.init(options)
