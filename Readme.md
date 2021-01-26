@@ -1,5 +1,5 @@
 # cordova-plugin-fastrde-mqtt
-This is a fork from https://github.com/fastrde/cordova-plugin-fastrde-mqttI , a good plugin for MQTT known working for both IOS and Android. I fix some dependency to make it works again and update Documentation
+This is a fork from **cordova-plugin-fastrde-mqtt** (https://github.com/fastrde/cordova-plugin-fastrde-mqtt  with [some fix from IOCare)](https://github.com/IOCare/cordova-plugin-fastrde-mqtt), a good plugin for MQTT known working for both IOS and Android. I fix some dependency to make it works again and update Documentation
 
 ## Successfully testing
 
