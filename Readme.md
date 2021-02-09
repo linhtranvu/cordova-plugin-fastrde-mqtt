@@ -5,9 +5,29 @@ This is a fork from **cordova-plugin-fastrde-mqtt** (https://github.com/fastrde/
 
 Now working smoothly on both **IOS** and **Android**. Tested on Jan 2021, Cordova 9. XCode 12.3
 
-## Installation
+## Installation Android
 
 `cordova plugin add https://github.com/linhtranvu/cordova-plugin-fastrde-mqtt.git`
+
+## Installation IOS
+
+#### Fresh Install
+
+First, you need to run install command directly on IOS
+
+`cordova plugin add https://github.com/linhtranvu/cordova-plugin-fastrde-mqtt.git`
+
+Install from `package.json` (mean you install on Android, and copy app to MacOS) will cause missing dependency.
+
+#### Add and remove IOS Platform
+
+Sometime, we need to add, remove IOS platform and add again. In this case, you need to uninstall this package first
+
+`cordova plugin remove cordova-plugin-fastrde-mqtt ` 
+
+Now you can safely remove IOS platform and add again, then reinstall plugin as fresh
+
+> Sorry for this buggy installation thing, but at least we have a working MQTT plugin 
 
 ## API
 
